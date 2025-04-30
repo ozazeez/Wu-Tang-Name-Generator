@@ -3,30 +3,57 @@ h1 {
 }
 
 body {
-  background-color: lightgray;
+  display: flex;
+  background-color: blanchedalmond;
+  align-items: center;
+  flex-direction: column;
 }
-div{
+
+div {
   display: flex;
   align-items: center;
   justify-content: center;
   flex-direction: column;
 }
+
 #clanName {
   display: flex;
   flex-direction: row;
   justify-content: center;
   align-items: center;
 }
-h2{
+
+h2 {
   margin-right: .5em;
   color: blueviolet;
   font-size: 2em;
 }
-.selections{
+
+.selections {
   display: flex;
   flex-direction: row;
   gap: 1em;
 }
-p{
+
+p {
   font-weight: bold;
+  font-size: 43px;
+}
+
+label {
+  font-size: 20px;
+}
+
+input {
+  font-size: 33px;
+}
+
+button {
+  margin: 1em;
+  background-color: bisque;
+  font-size: large;
+}
+
+.main {
+  margin-top: 10em;
 }
